@@ -157,7 +157,7 @@ nvm()
               curl http://npmjs.org/install.sh | clean=yes npm_install=0.2.19 sh
             fi
           else
-            curl http://npmjs.org/install.sh | clean=yes sh
+            curl -k -L http://npmjs.org/install.sh | clean=yes sh
           fi
         fi
       else
